@@ -11,17 +11,71 @@ var articles = {
         heading:'Be Rich',
         date:'Oct 20, 2016',
         content:
-        `<p>This is the content for my first article.i ama master of my own.</p>
+        `<p>This is the content for my first article.i am a master of my own.</p>
             <p>Trump Won,We lost.</p>
             <p>Lets Go!</p>`
+    },
+    articleTwo:{
+        title:'Article Two | SangyWarrior',
+        heading:'Seriously?',
+        date:'Oct 31, 2016',
+        content:
+        `<p>This is the content for my Second article.FUS RO DA.</p>
+            <p>Skyrim.</p>
+            <p>Party mode</p>`
+    },
+    articleThree:{
+        title:'Article Three | Legend',
+        heading:'Lachrymose',
+        date:'Nov 10, 2016',
+        content:
+        `<p>This is the content for my Third article.Abiyentoo.</p>
+            <p>They Hate us,cause they ain't us</p>
+            <p>Welp!</p>`
     }
+    
+};
+
+function createTemplate(data){
+    var title = data.title;
+    var heading=data.heading;
+    var date=data.date;
+    var content=data.content;
+    var htmlTemplate=`
+    <html>
+    <head>
+        <title>
+        ${title}
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1 "/>
+         <link href="/ui/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+        <div>
+            <a href="/">Home</a>
+        </div>
+        <hr/>
+        <h3>
+            ${heading}
+        </h3>
+        <div>
+           ${date}
+        </div>
+        <div>
+            ${content}
+        </div>
+        </div>
+    </body>
+</html>`
 }
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 app.get('/article-one',function(req,res){
-    res.sendFile(path.join(__dirname,'ui','article-one.html'));
+    res.send(createTemplate(articles.articleOne));
 });
 
 app.get('/article-two',function(req,res){
