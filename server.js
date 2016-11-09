@@ -5,6 +5,17 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var articles = {
+    articleOne:{
+        title:'Article One | Sangeeth Sivan',
+        heading:'Be Rich',
+        date:'Oct 20, 2016',
+        content:
+        `<p>This is the content for my first article.i ama master of my own.</p>
+            <p>Trump Won,We lost.</p>
+            <p>Lets Go!</p>`
+    }
+}
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
