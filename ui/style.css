@@ -14,6 +14,7 @@ header   {
   background: rgb(20, 20, 30);
   background: rgba(20, 20, 30, .5);
   color: #FFF;
+  padding: 15px 30px;
 }
 
 #logo         {
