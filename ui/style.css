@@ -91,20 +91,17 @@ nav ul li a:hover   {
 }
 
 .hero           {
-  min-height: 800px;
   text-align: center;
   background-image: url('http://static.wixstatic.com/media/f844a81ff14743ba92ef5f4f498aa2c8.jpeg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed; 
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.6);
   background-size: cover;
   
 }
 
 .hero-content a:hover{
-       background: rgb(54, 25, 25);
+    background: rgb(54, 25, 25);
     background: rgba(54, 25, 25, .5);
 }
 
