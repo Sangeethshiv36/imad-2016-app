@@ -75,7 +75,7 @@ nav ul li a:hover   {
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: cover;
-  opacity:4;
+  opacity:.4;
 }
 
 .hero-title{
