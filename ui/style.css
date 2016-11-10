@@ -75,12 +75,11 @@ nav ul li a:hover   {
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: cover;
-  opacity:.4;
 }
 
 .hero-title{
     color:#FFF;
-    opacity:1;
+    z-index:2;
 }
 
 .hero-content   {
@@ -91,12 +90,10 @@ nav ul li a:hover   {
 .hero-content h1   {
   font-size: 100px;
   margin: 0;
-  opacity:1;
 }
 
 .hero-content p    {
   font-size: 50px;
-  opacity:1;
 }
 
 .hero-content a    {
@@ -108,7 +105,6 @@ nav ul li a:hover   {
   margin-right: 20px;
   text-decoration: none;
   font-size: 28px;
-  opacity:1;
 }
 
 
