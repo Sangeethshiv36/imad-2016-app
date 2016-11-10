@@ -11,8 +11,8 @@ body   {
 
 
 header   {
-  background: #222;
-  opacity:0.4;
+  background: rgb(54, 25, 25);
+  background: rgba(54, 25, 25, .5);
   color: #FFF;
   padding: 10px 30px;
 }
@@ -59,7 +59,6 @@ nav     {
   width: 100%;
   display: inline-block;
   text-align: right;
-  opacity:1;
 }
 nav ul   {
   list-style: none;
