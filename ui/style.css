@@ -65,6 +65,7 @@ nav ul li a    {
 nav ul li a:hover   {
   background: #444;
 }
+
 .hero-content   {
   color: #FFF;
   padding-top: 130px;
@@ -77,6 +78,7 @@ nav ul li a:hover   {
 .hero-content p    {
   font-size: 50px;
 }
+
 .hero-content a    {
   display: inline-block;
   color: #FFF;
@@ -96,8 +98,7 @@ nav ul li a:hover   {
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: cover;
-  z-index: 1;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 
