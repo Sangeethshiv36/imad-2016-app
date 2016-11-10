@@ -79,7 +79,7 @@ nav ul li a:hover   {
   background: #444;
 }
 
-body          {
+.hero          {
   text-align: center;
   background-image: url('http://static.wixstatic.com/media/f844a81ff14743ba92ef5f4f498aa2c8.jpeg');
   background-position: center center;
