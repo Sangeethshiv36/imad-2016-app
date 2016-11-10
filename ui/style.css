@@ -11,8 +11,8 @@ body   {
 
 
 header   {
-  background: rgb(54, 25, 25);
-  background: rgba(54, 25, 25, .5);
+  background: rgb(20, 54, 25);
+  background: rgba(20, 54, 25, .5);
   color: #FFF;
   padding: 10px 30px;
 }
