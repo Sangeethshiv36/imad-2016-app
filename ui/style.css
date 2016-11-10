@@ -30,7 +30,7 @@ body {
 .hero           {
   min-height: 800px;
   text-align: center;
-  background-image: url('https://lh3.googleusercontent.com/-pYp3Ch1dAHM/V-6LY-_Bf_I/AAAAAAAAKCw/m0e5lH-rrfE/s1600/IMG_20160928_030755.jpg');
+  background-image: url('http://phandroid.s3.amazonaws.com/wp-content/uploads/2015/01/night-2.jpg');
   background-size: cover;
 }
 .hero-content   {
