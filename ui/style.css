@@ -81,6 +81,7 @@ nav ul li a:hover   {
 
 body          {
   text-align: center;
+  background-color:rgba(255,0,0,0.5);
   background-color: transparent;
   background-image: url('http://wallpapercave.com/wp/qjco8WH.png');
   background-position: center center;
