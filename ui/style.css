@@ -98,7 +98,8 @@ nav ul li a:hover   {
 }
 
 .hero-content a:hover{
-    background: #444;
+       background: rgb(54, 25, 25);
+    background: rgba(54, 25, 25, .5);
 }
 
 h3{
