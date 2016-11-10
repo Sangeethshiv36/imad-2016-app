@@ -66,31 +66,17 @@ nav ul li a:hover   {
   background: #444;
 }
 
-.hero           {
-  min-height: 800px;
-  text-align: center;
-  background-image: url('http://static.wixstatic.com/media/f844a81ff14743ba92ef5f4f498aa2c8.jpeg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  background-size: cover;
-  opacity: 0.5;
-}
-
 .hero-content   {
   color: #FFF;
   padding-top: 130px;
-  opacity:1;
 }
 .hero-content h1   {
   font-size: 100px;
   margin: 0;
-  opacity:1;
 }
 
 .hero-content p    {
   font-size: 50px;
-  opacity:1;
 }
 
 .hero-content a    {
@@ -102,10 +88,18 @@ nav ul li a:hover   {
   margin-right: 20px;
   text-decoration: none;
   font-size: 28px;
-  opacity:1;
 }
 
-
+.hero           {
+  min-height: 800px;
+  text-align: center;
+  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('http://static.wixstatic.com/media/f844a81ff14743ba92ef5f4f498aa2c8.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  
+}
 
 .hero-content a:hover{
        background: rgb(54, 25, 25);
