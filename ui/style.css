@@ -85,7 +85,10 @@ nav ul li a:hover   {
   padding-top: 130px;
 }
 
-
+.hero-content h1   {
+  font-size: 100px;
+  margin: 0;
+}
 
 .hero-content p    {
   font-size: 50px;
