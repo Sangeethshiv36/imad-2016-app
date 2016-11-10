@@ -81,7 +81,7 @@ nav ul li a:hover   {
 
 body          {
   text-align: center;
-  background-image: url('../yoga.png');
+  background-image: url('/yoga.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed; 
