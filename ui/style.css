@@ -15,7 +15,7 @@ body     {
 }
 
 header   {
-  background-color: transparent;
+  background: #222;
   color: #FFF;
   padding: 20px 30px;
 }
@@ -100,6 +100,6 @@ nav ul li a:hover   {
   font-size: 28px;
 }
 
-h6{
+h4{
     text-align:right;
 }
