@@ -93,7 +93,7 @@ nav ul li a:hover   {
 .hero           {
   min-height: 800px;
   text-align: center;
-  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('http://static.wixstatic.com/media/f844a81ff14743ba92ef5f4f498aa2c8.jpeg');
+  background-image: url('http://static.wixstatic.com/media/f844a81ff14743ba92ef5f4f498aa2c8.jpeg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed; 
