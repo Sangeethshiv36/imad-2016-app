@@ -97,6 +97,10 @@ nav ul li a:hover   {
   font-size: 28px;
 }
 
+.hero-content a:hover{
+    background: #444;
+}
+
 h3{
     text-align:center;
     padding-bottom:30px;
