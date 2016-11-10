@@ -23,12 +23,6 @@ header   {
   width: 49%;
 }
 
-#logo img    {
-  width: 50px;
-  border-radius: 3px;
-  margin-right: 8px;
-  vertical-align: middle;
-}
 
 #logo span   {
   display: inline-block;
