@@ -21,12 +21,12 @@ header   {
   color: #FFF;
   text-decoration: none;
   width: 49%;
+  text-align:left;
 }
 
 
 #logo span   {
   display: inline-block;
-  text-align: left;
 }
 
 /*.center {
