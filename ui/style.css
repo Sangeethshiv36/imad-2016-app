@@ -11,9 +11,10 @@ body   {
 
 
 header   {
-  background: transparent;
+  background: #222;
+  opacity:0.4;
   color: #FFF;
-  padding: 10px 30px;
+  padding: 20px 30px;
 }
 
 #logo         {
