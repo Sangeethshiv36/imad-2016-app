@@ -1,5 +1,25 @@
-body {
-    font-family: sans-serif;
+*     {
+  box-sizing: border-box;
+}
+html,
+body   {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/* styling our overall page */
+body     {
+  background: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling our header */
+header   {
+  background: #222;
+  color: #FFF;
+  padding: 20px 30px;
 }
 
 .center {
