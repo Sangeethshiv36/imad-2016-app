@@ -1,4 +1,14 @@
+html,
+body   {
+  
+  line-height: 1.5;
+  font-size: 16px;
+}
 
+body     {
+  background: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 header   {
   background: #222;
