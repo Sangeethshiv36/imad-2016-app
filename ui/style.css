@@ -9,6 +9,14 @@ body   {
 body     {
   background: #FFF;
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 800px;
+  text-align: center;
+  background-image: url('http://static.wixstatic.com/media/f844a81ff14743ba92ef5f4f498aa2c8.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  opacity:.5;
 }
 
 header   {
