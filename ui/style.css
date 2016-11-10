@@ -75,7 +75,10 @@ nav ul li a:hover   {
   min-height: 800px;
   text-align: center;
   background-image: url('http://www.imgbase.info/images/safe-wallpapers/space/miscellaneous/23233_miscellaneous_milky_way_view_from_earth.jpg');
-  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
 }
 .hero-content   {
   color: #FFF;
