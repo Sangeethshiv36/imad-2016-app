@@ -6,16 +6,16 @@ body   {
   font-size: 16px;
   height:100%;
   background: #FFF;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif,Serif;
 }
 
 
-header   {
+/*header   {
   background: rgb(20, 20, 30);
   background: rgba(20, 20, 30, .5);
-  color: #FFF;
+  color: #00FFFF;
   padding: 3px 20px;
-}
+}*/
 
 #logo         {
   display: inline-block;
@@ -23,6 +23,7 @@ header   {
   text-decoration: none;
   width: 100%;
   text-align:left;
+    font-family: Impact;
 }
 
 
@@ -68,20 +69,25 @@ nav ul li {
   display: inline-block;
 }
 nav ul li a    {
-  color: #FFF;
-  text-decoration: none;
-  display: block;
-  padding: 15px 15px;
-  border-radius: 3px;
+  color: #57eee5;
+    text-decoration: none;
+    font-family: "Trebuchet MS";
+    font-size: 20px;
+  display: inline-block;
+  padding: 15px 40px;
+  border-radius: 2px;
   transition: 0.3s ease all;
 }
 nav ul li a:hover   {
-  background: #444;
+   /* background: rgb(20, 40, 30);
+    background: rgba(20, 40, 30, .5);*/
+    text-decoration: underline;
+    font-size:25px;
 }
 
 body          {
   text-align: center;
-  background-image: url('http://static.wixstatic.com/media/f844a81ff14743ba92ef5f4f498aa2c8.jpeg');
+  background-image: url('https://s21.postimg.org/4e3h2weiv/city_background_wallpaper_17.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed; 
@@ -90,28 +96,33 @@ body          {
 
 
 .hero-content   {
-  color: #FFF;
-  padding-top: 130px;
+  color: #57eee5;
+  padding-top:50px;
 }
 
 .hero-content h1   {
-  font-size: 100px;
-  margin: 0;
+  font-size: 300px;
+    font-family:"Century Gothic";
+    margin:0;
 }
 
 .hero-content p    {
-  font-size: 50px;
+  font-size: 20px;
+    padding-bottom:20px;
+    color:#FFFFFF;
+    font-family: "Century Gothic";
 }
 
 .hero-content a    {
   display: inline-block;
   color: #FFF;
-  border: 3px solid #FFF;
+  border: 3px solid  #57eee5;
   border-radius: 3px;
   padding: 15px 30px;
   margin-right: 20px;
   text-decoration: none;
-  font-size: 28px;
+  font-size: 18px;
+    font-family: "Century Gothic";
 }
 
 
