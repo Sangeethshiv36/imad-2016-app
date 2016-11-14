@@ -1,0 +1,66 @@
+*     {
+    box-sizing: border-box;
+}
+html,
+body   {
+    margin:0;
+    padding:0;
+    line-height: 1.5;
+    font-size: 16px;
+    height:100%;
+    background: #FFF;
+    font-family: Arial, Helvetica, sans-serif,Serif;
+}
+
+/* styling our overall page */
+body {
+    text-align: center;
+    background-color: #000d1b;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#profpic{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid deepskyblue;
+}
+.top-content   {
+    color: #FFF;
+    padding-top: 130px;
+}
+.top-content h2   {
+    font-size: 50px;
+    font-family: "Times New Roman";
+    margin: 0;
+}
+
+.top-content p    {
+    font-size: 50px;
+}
+
+.bottom-nav ul{
+    height:70px;
+    text-align:center;
+    font-size:22px;
+    font-family: "Century Gothic";
+    color: #ffffff;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    list-style: none;
+}
+
+.bottom-nav ul li{
+    display: inline;
+    list-style: none;
+    padding : 20px 60px;
+}
+
+.bottom-nav ul li a{
+    text-decoration: none;
+}
