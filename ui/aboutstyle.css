@@ -16,6 +16,7 @@ body   {
 body {
     text-align: center;
     background-color: #000d1b;
+    /*background-image: url("https://quotefancy.com/media/wallpaper/3840x2160/760-Oscar-Wilde-Quote-To-live-is-the-rarest-thing-in-the-world-Most.jpg");*/
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -28,15 +29,37 @@ body {
     height: 200px;
     border-radius: 50%;
     border: 3px solid deepskyblue;
+    float:right;
+    margin-right:100px;
+}
+
+#content{
+    margin:auto;
+    background: rgb(20,20 ,30 );
+    background: rgba(20,20 ,30 , .3);
+    height:750px;
+    width:750px;
+}
+
+h1{
+    line-height: 0.9;
+    padding-left:20px;
 }
 .top-content   {
     color: #FFF;
-    padding-top: 130px;
+    padding-top:70px;
 }
-.top-content h2   {
-    font-size: 50px;
-    font-family: "Times New Roman";
-    margin: 0;
+.top-content h3   {
+    font-family: "Century Gothic";
+}
+
+.top-left{
+    color:cyan;
+    font-size:40px;
+    text-align: left;
+    padding-left: 30px;
+    float:left;
+    font-family: "Impact";
 }
 
 .top-content p    {
@@ -53,6 +76,7 @@ body {
     bottom:0;
     width:100%;
     list-style: none;
+    opacity:0.9;
 }
 
 .bottom-nav ul li{
@@ -62,5 +86,6 @@ body {
 }
 
 .bottom-nav ul li a{
+    color:inherit;
     text-decoration: none;
 }
