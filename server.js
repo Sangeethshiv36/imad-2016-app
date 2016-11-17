@@ -69,6 +69,8 @@ function createTemplate(data){
         </div>
     </body>
 </html>`;
+
+
 return htmlTemplate;
 }
 
@@ -79,6 +81,11 @@ app.get('/', function (req, res) {
 app.get('/about',function(req,res){
     res.sendFile(path.join(__dirname,'ui','about.html'));
 });
+
+app.get('/blog',function(req,res){
+    res.sendFile(path.join(__dirname,'ui','blog.html'))
+});
+
 
 app.get('/:articleName',function(req,res){
     var articleName=req.params.articleName;
@@ -99,10 +106,6 @@ app.get('/ui/prof.jpg',function(req,res){
 
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
-});
-
-app.get('/personal',function(req,res){
-    res.sendFile(path.join(__dirname,'ui','personal.html'))
 });
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
