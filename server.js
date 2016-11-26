@@ -15,36 +15,6 @@ var app = express();
 app.use(morgan('combined'));
 app.use(express.static(__dirname+'/public'));
 
-var articles = {
-    'article-one':{
-        title:'Article One | Sangeeth Sivan',
-        heading:'Be Rich',
-        date:'Oct 20, 2016',
-        content:
-        `<p>This is the content for my first article.i am a master of my own.</p>
-            <p>Trump Won,We lost.</p>
-            <p>Lets Go!</p>`
-    },
-    'article-two':{
-        title:'Article Two | SangyWarrior',
-        heading:'Seriously?',
-        date:'Oct 31, 2016',
-        content:
-        `<p>This is the content for my Second article.FUS RO DA.</p>
-            <p>Skyrim.</p>
-            <p>Party mode</p>`
-    },
-    'article-three':{
-        title:'Article Three | Legend',
-        heading:'Lachrymose',
-        date:'Nov 10, 2016',
-        content:
-        `<p>This is the content for my Third article.Abiyentoo.</p>
-            <p>They Hate us,cause they ain't us</p>
-            <p>Welp!</p>`
-    }
-    
-};
 
 function createTemplate(data){
     var title = data.title;
