@@ -3,17 +3,10 @@
     <head>
         <title>SANGY</title>
         <link href="/ui/style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title>IMAD Blog WebApp</title>
-            <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-            <link href="css/clean-blog.min.css" rel="stylesheet">
-            <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-            <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-            <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-            <link href="../css/modal.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -34,55 +27,9 @@
                 <h1 class="hero-title">HOLA</h1>
                 <p>This website is made for Educational Purpose.<br>In this Webpage you can find articles written for numerous Quotes.<br></p>
                 <a href="/blog">GET STARTED</a>
-                <a id="loginnavbar" data-toggle="modal" data-target="#login-modal" href="#">SIGN UP</a>
+                <a id="login" data-toggle="modal" data-target="#login-modal" href="#">SIGN UP</a>
             </div>
         </div>
-        
-        <!-- Modal -->
-                <div id="login-modal" class="modal fade" role="dialog">
-                  <div class="modal-dialog">
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                      <div class="modal-body">
-                        <div class="container-fluid">
-                             <div class="row">
-                                 <div class="">
-                                        <div class="form-body">
-                                            <ul class="nav nav-tabs final-login">
-                                                <li class="active"><a class="btn btn-sm" data-toggle="tab" href="#sectionA">Existing User</a></li>
-                                                <li><a class="btn btn-sm" data-toggle="tab" href="#sectionB">New User</a></li>
-                                            </ul>
-                                            <div class="tab-content">
-                                                <div id="sectionA" class="tab-pane fade in active">
-                                                    <div class="innter-form">
-                                                        <form class="sa-innate-form" method="post">
-                                                            <label>Username</label>
-                                                            <input type="text" id="username">
-                                                            <label>Password</label>
-                                                            <input type="password" id="password">
-                                                            <button type="button" class="btn btn-info btn-sm" id="login_btn">Sign In</button>
-                                                        </form>
-                                                    </div>
-                                                    <div class="clearfix"></div>
-                                                </div>
-                                                <div id="sectionB" class="tab-pane fade">
-                                                    <div class="innter-form">
-                                                        <form class="sa-innate-form" method="post">
-                                                            <label>New Username</label>
-                                                            <input type="text" id="new_username">
-                                                            <label>New Password</label>
-                                                            <input type="password" id="new_password">
-                                                            <button type="button" class="btn btn-info btn-sm" id="register_btn">Register</button>
-                                                        </form>
-                                                    </div>
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                      </div>
         
         <!--div class="center">
             <img src="/ui/madi.png" class="img-medium"/>
