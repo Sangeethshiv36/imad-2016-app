@@ -90,7 +90,7 @@ app.post('/login',function(req,res){
          if(err){
             res.status(500).send(err.toString());
         }else{ 
-            if(result.rows.length===0){
+            if(result.rows.length === 0){
                 res.send(403).send('username/password is invalid');
             }else{
             var dbString=result.rows[0].password;
@@ -105,6 +105,7 @@ app.post('/login',function(req,res){
         }
     });
 });
+
 var pool = new Pool(config);
 
 app.get('/test-db',function(req,res){
