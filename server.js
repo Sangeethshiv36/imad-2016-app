@@ -121,12 +121,15 @@ app.get('/blog/:articleName',function(req,res){
 app.post('/login',function(req,res){
     var username = req.body.username;
     var password = req.body.password;
+     if(!username.trim() || !password.trim()){
+     res.status(400).send('Username or password field blank.');   //Err if blank,tabs and space detected.
+   }else{
     pool.query('SELECT * FROM "user" WHERE username = $1',[username],function(err,result){
          if(err){
             res.status(500).send(err.toString());
         }else{ 
             if(result.rows.length === 0){
-                res.send(403).send('username/password is invalid');
+                res.status(403).send('username/password is invalid');
             }else{
             var dbString=result.rows[0].password;
             var salt=dbString.split('$')[2];
@@ -134,11 +137,12 @@ app.post('/login',function(req,res){
             if(hashedPassword === dbString){
             res.send('credentials correct');
         }else{
-            res.send(403).send('username/password is invalid');
+            res.status(403).send('username/password is invalid');
         }
             }
         }
     });
+    }
 });
 
 function hash(input,salt){
