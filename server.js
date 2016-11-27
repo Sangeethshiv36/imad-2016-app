@@ -134,7 +134,7 @@ app.post('/login',function(req,res){
             if(hashedPassword === dbString){
             res.send('credentials correct');
         }else{
-            res.send(403).send('username/password is invalid');
+            res.status(403).send('username/password is invalid');
         }
             }
         }
