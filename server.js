@@ -106,7 +106,6 @@ app.get('/hash/:input',function(req,res){
     var hashedString = hash(req.params.input,'random-string');
     res.send(hashedString);
 });
-;
 
 var pool = new Pool(config);
 
